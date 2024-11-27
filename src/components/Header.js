@@ -17,6 +17,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <h1>Redux Auth</h1>
+      {/* shows nav when user is logged in  */}
       {isAuth && <nav>
         <ul>
           <li>
